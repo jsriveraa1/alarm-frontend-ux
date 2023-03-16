@@ -1,0 +1,25 @@
+.ancho-izquierda{
+  padding-left: 10%;
+  margin-top: 15%;
+}
+
+.ancho-derecha{
+  padding-right: 10%;
+  margin-top: 10%;
+}
+
+.top-select{
+  margin-top: 3%;
+}
+
+button{
+  border-radius: 52px;
+  background-color: #2864DA;
+}
+
+.btn-custom-alarm{
+  width: 186px;
+  height: 52px;
+}
+
+
