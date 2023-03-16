@@ -1,27 +1,17 @@
 # Alarm
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.18.
+Este proyecto ha sido realizado con **Angular v12**.
 
-## Development server
+La aplicación Alarma permite crear recordatorios sencillos, agregando una hora 
+y fecha deseada, asi como seleccionar un tono personalizado o predeterminado, 
+ajustar la potenica y definir un mensaje.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Como plus a las alarmas convencionales encontradas en el mercado se agrega dos 
+opciones:
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+1. Respaldar alarma: Permite realizar una notificación a una persona que 
+seleccionemos (esta persona debe tener registrado el número de celular a la 
+aplicación), con el fin prevenir perder la alarma si el celular se apaga o 
+pasa un tiempo prudencial sin presionar el boton de completado.
+2. Compartir una alarma: Nos permite compartir nuestra alarma con diferentes
+amigos, familiares o conocidos para recordar algun evento de forma grupal.
